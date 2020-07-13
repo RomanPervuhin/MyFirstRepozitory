@@ -8,5 +8,10 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/status')
+def status():
+    return 'Status: OK'
+
+
 if __name__ == '__main__':
     app.run()
