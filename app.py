@@ -18,7 +18,7 @@ def about():
     return 'About us'
 
 
-@app.route('/about')
+@app.route('/contacts')
 def contacts():
     return 'contacts'
 
