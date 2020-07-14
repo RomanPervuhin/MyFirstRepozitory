@@ -13,5 +13,10 @@ def status():
     return 'Status: OK'
 
 
+@app.route('/about')
+def about():
+    return 'About us'
+
+
 if __name__ == '__main__':
     app.run()
