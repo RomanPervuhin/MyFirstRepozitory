@@ -20,7 +20,7 @@ def about():
 
 @app.route('/contacts')
 def contacts():
-    return 'contacts'
+    return ' my contacts'
 
 
 if __name__ == '__main__':
