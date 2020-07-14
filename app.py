@@ -18,10 +18,6 @@ def about():
     return 'About us'
 
 
-@app.route('/contacts')
-def contacts():
-    return ' my contacts'
-
 
 if __name__ == '__main__':
     app.run()
